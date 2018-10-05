@@ -1,0 +1,121 @@
+$grid-gutter-width: 30px;
+.col-xl-five-1, .col-lg-five-1, .col-md-five-1, .col-sm-five-1, .col-xs-five-1,
+.col-xl-five-2, .col-lg-five-2, .col-md-five-2, .col-sm-five-2, .col-xs-five-2,
+.col-xl-five-3, .col-lg-five-3, .col-md-five-3, .col-sm-five-3, .col-xs-five-3,
+.col-xl-five-4, .col-lg-five-4, .col-md-five-4, .col-sm-five-4, .col-xs-five-4 {
+  position: relative;
+  min-height: 1px;
+  padding-left:  ($grid-gutter-width / 2);
+  padding-right: ($grid-gutter-width / 2);
+}
+.col-xs-five-1 {
+  width: 20%;
+  flex: 0 0 20%;
+  float: left;
+}
+.col-xs-five-2 {
+  width: 40%;
+  flex: 0 0 40%;
+  float: left;
+}
+.col-xs-five-3 {
+  width: 60%;
+  flex: 0 0 60%;
+  float: left;
+}
+.col-xs-five-4 {
+  width: 80%;
+  flex: 0 0 80%;
+  float: left;
+}
+@media (min-width: map-get($grid-breakpoints,sm)) {
+  .col-sm-five-1 {
+    width: 20%;
+    flex: 0 0 20%;
+    float: left;
+  }
+  .col-sm-five-2 {
+    width: 40%;
+    flex: 0 0 40%;
+    float: left;
+  }
+  .col-sm-five-3 {
+    width: 60%;
+    flex: 0 0 60%;
+    float: left;
+  }
+  .col-sm-five-4 {
+    width: 80%;
+    flex: 0 0 80%;
+    float: left;
+  }
+}
+@media (min-width: map-get($grid-breakpoints,md)) {
+  .col-md-five-1 {
+    width: 20%;
+    flex: 0 0 20%;
+    float: left;
+  }
+  .col-md-five-2 {
+    width: 40%;
+    flex: 0 0 40%;
+    float: left;
+  }
+  .col-md-five-3 {
+    width: 60%;
+    flex: 0 0 60%;
+    float: left;
+  }
+  .col-md-five-4 {
+    width: 80%;
+    flex: 0 0 80%;
+    float: left;
+  }
+  .col-md-offset-five-1 {
+    margin-left: 4.3333333%;
+  }
+}
+@media (min-width: map-get($grid-breakpoints,lg)) {
+  .col-lg-five-1 {
+    width: 20%;
+    flex: 0 0 20%;
+    float: left;
+  }
+  .col-lg-five-2 {
+    width: 40%;
+    flex: 0 0 40%;
+    float: left;
+  }
+  .col-lg-five-3 {
+    width: 60%;
+    flex: 0 0 60%;
+    float: left;
+  }
+  .col-lg-five-4 {
+    width: 20%;
+    flex: 0 0 20%;
+    float: left;
+  }
+}
+@media (min-width: map-get($grid-breakpoints,xl)) {
+  .col-xl-five-1 {
+    width: 20%;
+    flex: 0 0 20%;
+    float: left;
+  }
+  .col-xl-five-2 {
+    width: 40%;
+    flex: 0 0 40%;
+    float: left;
+  }
+  .col-xl-five-3 {
+    width: 60%;
+    flex: 0 0 60%;
+    float: left;
+  }
+  .col-xl-five-4 {
+    width: 20%;
+    flex: 0 0 20%;
+    float: left;
+  }
+}
