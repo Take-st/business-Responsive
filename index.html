@@ -38,7 +38,7 @@
             </li>
           </ul>
         </nav>
-        <div class="btn">
+        <div class="btn hide-mobile">
           <a href="#register">無料登録する</a>
         </div>
       </div>
@@ -54,9 +54,6 @@
       </div>
     </div>
   </section>
-
-
-
   <section id="message" class="message-wrapper">
     <div class="container">
       <div class=caption>
@@ -123,10 +120,6 @@
       <!-- </div> -->
     </div>
   </section>
-
-
-
-
   <section id="history" class="history-wrapper">
     <div class="container clearfix">
       <div class="history-box">
@@ -157,16 +150,16 @@
         <h2>ブランディングから見込み客の獲得まで</h2>
         <p>Flow of prospect acquisition</p>
       </div>
-      <div class="flow-box1">
-        <div class="flow-box1-left">
+      <div class="flow-box1 clearfix">
+        <div class="flow-box1-left mobile-collapse">
           <h3>経営マガジンでできること</h3>
           <p>ノウハウや知見を投稿するためのコラム作成機能、ビジネス文章の書式やテンプレートを投稿する機能、貴社専用の問合せフォーム作成機能、貴社の会社概要情報の作成機能、問合せユーザの管理機能、問合せユーザへのメルマガ配信機能といった、<span class="red">ブランディング・見込み客獲得に必要な機能が揃っています。</span>お申し込みからたったの1分で管理画面にログインでき、<span class="red">今ならこれら全ての機能を無料でご利用頂けます。</span></p>
         </div>
-        <div class="flow-box1-right">
+        <div class="flow-box1-right mobile-collapse">
           <img src="pics/webpage1.png" alt="" width="340px">
         </div>
       </div>
-      <div class="flow-box2">
+      <div class="flow-box2 clearfix">
         <div class="flow-box2-upper">
           <h3>見込み客を獲得して商談の機会を増やす</h3>
           <p>貴社のノウハウや知見、保有しているビジネス文章を投稿することにより、<span class="red">見込み客を集めて管理</span>できます。さらに貴社専用の管理画面から見込み客へメルマガ配信することで、<span class="red">見込み客を顧客へと育成し商談のチャンスを増やす</span>ことができます。</p>
@@ -176,13 +169,13 @@
           <p class="source">Source: http://sys.keiei.ne.jp/partner/add/</p>
         </div>
       </div>
-      <div class="flow-box1">
-        <div class="flow-box1-left">
+      <div class="flow-box1 clearfix">
+        <div class="flow-box1-left mobile-collapse">
           <h3>運用歴12年による確かなドメインパワー</h3>
           <p>ノウハウ・知見を元に作成したコラム記事は、経営マガジンをチェックしている経営者だけでなく、Googleなどの検索エンジンにて上位に表示されるため、様々なユーザに見てもらうことができます。<span class="red">「役務」という月間1万回近く検索されるキーワードで3位を獲得しており、ノウハウ記事だけでなく、ビジネス用語をわかりやすく解説するだけでも多大なアクセスを獲得することも不可能ではありません。</span></p>
           <p class="second">※投稿された記事の品質を保つべく、メディア編集長による審査・修正をしております。そのため単なる自社の宣伝、自社HPからのコピペといった記事は基本的にお断りしております。</p>
         </div>
-        <div class="flow-box1-right">
+        <div class="flow-box1-right mobile-collapse">
           <img src="pics/webpage1.png" alt="" width="340px">
         </div>
       </div>
@@ -277,7 +270,7 @@
         </div>
         <div class="form-item">
           <p>住所<span class="red">（必須）</span></p>
-          <div class="address-wrap">
+          <div class="address-wrap clearfix">
             <div class="pref-form">
               <select name="pref_name" required>
                 <option value="" selected hidden>都道府県</option>
@@ -330,8 +323,8 @@
                 <option value="沖縄県">沖縄県</option>
               </select>
             </div>
-            <input type="text" name="name" placeholder="◯◯市" required />
-            <input type="text" name="name" placeholder="◯◯町◯◯　◯◯ビル" required />
+            <input class="city-form type=" text" name="name" placeholder="◯◯市" required />
+            <input class="block-form type=" text" name="name" placeholder="◯◯町◯◯　◯◯ビル" required />
           </div>
         </div>
         <div class="form-item">
@@ -381,7 +374,7 @@
       <div class="footer-top">
         <div class="footer-top-item">
           <h3>経営MAGAZINE - 基本情報</h3>
-          <ul class=footer-top-menu>
+          <ul class="footer-top-menu clearfix">
             <li><a href="#">会社概要</a></li>
             <li><a href="#">利用規約</a></li>
             <li><a href="#">プライバシーポリシー</a></li>
@@ -392,12 +385,12 @@
         </div>
         <div class="footer-top-item">
           <h3>経営MAGAZINE - コンテンツ</h3>
-          <ul class=footer-top-menu>
-            <li><a href="#">ビジネス文書・ビジネス書式集</a></li>
-            <li><a href="#">ビジネス用語・経営用語辞典</a></li>
-            <li><a href="#">エニアグラム性格診断</a></li>
+          <ul class="footer-top-menu clearfix">
+            <li class="two-items"><a href="#">ビジネス文書・ビジネス書式集</a></li>
+            <li class="two-items"><a href="#">ビジネス用語・経営用語辞典</a></li>
           </ul>
-          <ul class=footer-top-menu>
+          <ul class="footer-top-menu clearfix">
+            <li><a href="#">エニアグラム性格診断</a></li>
             <li><a href="#">比較ビズ</a></li>
             <li><a href="#">比較ビズまとめ</a></li>
           </ul>

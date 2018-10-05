@@ -1,3 +1,29 @@
+// タブレットサイズ
+
+// .message-wrapper {
+//   width: 100%;
+//   .container {
+//     padding-top: 85px;
+//     .caption {
+//       margin-bottom: 60px;
+//     }
+//   }
+// }
+
+header {
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  display: none;
+  .header-menu {
+    .container{
+      .hide-mobile {
+        display: none;
+      }
+    }
+  }
+}
+
 .history-wrapper {
   .container {
     max-width: 100%;
@@ -22,9 +48,100 @@
   }
 }
 
+.flow-wrapper .container {
+  .flow-box1 {
+    .mobile-collapse {
+      width: auto;
+      float: none;
+      margin-right: 0;
+      margin-bottom: 25px;
+    }
+    .flow-box1-right {
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+}
 
+.register-wrapper .container form {
+  width: 90%;
+  .address-wrap {
+    .pref-form {
+      width: 48%;
+      margin-right: 4%;
+    }
+    .city-form {
+      width: 48%;
+      margin-right: 0;
+    }
+    .block-form {
+      margin-top: 10px;
+      float: none;
+      width: 100%;
+    }
+  }
+}
+
+footer {
+  .container {
+    h3 {
+      font-size: 14px;
+      letter-spacing: 1.5px;
+      margin-bottom: 10px;
+    }
+    .footer-top .footer-top-item {
+      margin-bottom: 20px;
+      .footer-top-menu {
+        li {
+          width: 28%
+        }
+        .two-items {
+          margin-right: 1%;
+          width: 49%
+        }
+      }
+    }
+    .copyright {
+      font-size: 12px;
+      letter-spacing: 1px;
+      padding: 15px 0;
+    }
+  }
+}
+
+
+// スマホサイズ
 
 @media screen and (max-width: 576px) {
+
+  header {
+    position: absolute;
+    top: -100px;
+  }
+
+  .top-wrapper .container {
+    padding: 0;
+    padding-bottom: 40px;
+    width: 100%;
+    .top-message {
+      font-size: 14px;
+      letter-spacing: 3px;
+    }
+    h1 {
+      width: 85%;
+      font-size: 21px;
+      padding: 20px 0;
+    }
+    p {
+      font-size: 13px;
+      letter-spacing: 3px;
+    }
+    .btn a {
+      font-size: 13px;
+      padding: 10px 30px;
+      }
+  }
+
   .history-wrapper .container .history-box {
     padding: 15px 0;
     h4 {
@@ -44,9 +161,26 @@
         height: auto;
       }
     }
-
   }
 
+  footer {
+    .container {
+      .footer-top .footer-top-item {
+        .footer-top-menu {
+          li {
+            font-size: 12px;
+            margin-right: 1%;
+            width: 49%
+          }
+        }
+      }
+      .copyright {
+        font-size: 12px;
+        letter-spacing: 1px;
+        padding: 15px 0;
+      }
+    }
+  }
 
 
 

@@ -1,3 +1,13 @@
+header {
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  display: none;
+}
+header .header-menu .container .hide-mobile {
+  display: none;
+}
+
 .history-wrapper .container {
   max-width: 100%;
   padding: 0;
@@ -18,7 +28,84 @@
   margin-bottom: 40px;
 }
 
+.flow-wrapper .container .flow-box1 .mobile-collapse {
+  width: auto;
+  float: none;
+  margin-right: 0;
+  margin-bottom: 25px;
+}
+.flow-wrapper .container .flow-box1 .flow-box1-right {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.register-wrapper .container form {
+  width: 90%;
+}
+.register-wrapper .container form .address-wrap .pref-form {
+  width: 48%;
+  margin-right: 4%;
+}
+.register-wrapper .container form .address-wrap .city-form {
+  width: 48%;
+  margin-right: 0;
+}
+.register-wrapper .container form .address-wrap .block-form {
+  margin-top: 10px;
+  float: none;
+  width: 100%;
+}
+
+footer .container h3 {
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+footer .container .footer-top .footer-top-item {
+  margin-bottom: 20px;
+}
+footer .container .footer-top .footer-top-item .footer-top-menu li {
+  width: 28%;
+}
+footer .container .footer-top .footer-top-item .footer-top-menu .two-items {
+  margin-right: 1%;
+  width: 49%;
+}
+footer .container .copyright {
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 15px 0;
+}
+
 @media screen and (max-width: 576px) {
+  header {
+    position: absolute;
+    top: -100px;
+  }
+
+  .top-wrapper .container {
+    padding: 0;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+  .top-wrapper .container .top-message {
+    font-size: 14px;
+    letter-spacing: 3px;
+  }
+  .top-wrapper .container h1 {
+    width: 85%;
+    font-size: 21px;
+    padding: 20px 0;
+  }
+  .top-wrapper .container p {
+    font-size: 13px;
+    letter-spacing: 3px;
+  }
+  .top-wrapper .container .btn a {
+    font-size: 13px;
+    padding: 10px 30px;
+  }
+
   .history-wrapper .container .history-box {
     padding: 15px 0;
   }
@@ -34,6 +121,17 @@
   .about-wrapper .container .about-box .about-image img {
     max-width: 60%;
     height: auto;
+  }
+
+  footer .container .footer-top .footer-top-item .footer-top-menu li {
+    font-size: 12px;
+    margin-right: 1%;
+    width: 49%;
+  }
+  footer .container .copyright {
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 15px 0;
   }
 }
 

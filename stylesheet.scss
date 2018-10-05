@@ -310,15 +310,19 @@ header {
       box-shadow: 2px 2px 4px silver;
     }
     .flow-box1 {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
       margin-bottom: 60px;
+      // border: 1px solid gray;
       .flow-box1-left {
+        float: left;
         width: 60%;
+        margin-right: 5%;
         .second {
           padding-top: 20px;
         }
+      }
+      .flow-box1-right {
+        float: left;
+        width: 35%;
       }
     }
     .flow-box2 {
@@ -334,7 +338,6 @@ header {
   width: 100%;
   background: linear-gradient(-90deg, rgb(162, 6, 122), rgb(3, 39, 84));
   .container{
-    // border: solid silver 1px;
     padding-top: 85px;
     padding-bottom: 50px;
     .caption {
@@ -389,7 +392,6 @@ header {
   }
 }
 
-// border: solid silver 1px;
 .register-wrapper {
   .container {
     padding-top: 65px;
@@ -419,13 +421,15 @@ header {
         }
       }
       .address-wrap {
-        display: flex;
-        justify-content: space-between;
-        input {
-          width: 39%;
-        }
+        // display: flex;
+        // justify-content: space-between;
+        // input {
+        //   width: 39%;
+        // }
         .pref-form {
-          width: 20%;
+          float: left;
+          width: 22%;
+          margin-right: 2%;
           position: relative;
           &::before {
             position: absolute;
@@ -437,6 +441,15 @@ header {
             color: #7F878C;
             pointer-events: none;
           }
+        }
+        .city-form {
+          margin-right: 2%;
+          float: left;
+          width: 22%;
+        }
+        .block-form {
+          float: left;
+          width: 52%;
         }
       }
       .job-form {
@@ -493,9 +506,6 @@ header {
   }
 }
 
-
-
-
 footer {
   background: #272727;
   .container {
@@ -515,11 +525,10 @@ footer {
     }
     .footer-top {
       .footer-top-item {
-        margin-bottom: 25px;
+        margin-bottom: 30px;
         .footer-top-menu {
-          display: flex;
-          justify-content: start;
           li {
+            float: left;
             margin-right: 10px;
             line-height: 1.5;
           }
