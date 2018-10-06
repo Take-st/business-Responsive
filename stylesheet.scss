@@ -3,6 +3,10 @@
 // 使おうかと思ったけど、floatを使った方が適切と感じたのでやめた
 // 参考：https://designsupply-web.com/knowledgeside/2271/
 
+.wap {
+  overflow: hidden;
+}
+
 body {
   margin: 0;
   font-family: "YuGothic";
