@@ -55,6 +55,7 @@ img {
 }
 
 .container {
+  box-sizing: border-box;
   margin: 0 auto;
 }
 
@@ -102,7 +103,6 @@ header {
   width: 100%;
   z-index: 10;
   position: fixed;
-  display: none;
 }
 header .header-menu {
   background: linear-gradient(90deg, #032754, #a2067a);

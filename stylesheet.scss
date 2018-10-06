@@ -60,6 +60,7 @@ img {
 
 .container {
   // width: 980px;
+  box-sizing: border-box;
   margin: 0 auto;
 }
 
@@ -109,7 +110,7 @@ header {
   width: 100%;
   z-index: 10;
   position: fixed;
-  display: none;
+  // display: none;
   .header-menu {
     background: linear-gradient(90deg, rgb(3, 39, 84), rgb(162, 6, 122));
     width: 100%;
