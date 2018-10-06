@@ -1,4 +1,8 @@
 @import url("reset.css");
+.wrap {
+  overflow: hidden;
+}
+
 body {
   margin: 0;
   font-family: "YuGothic";

@@ -3,10 +3,9 @@
 // 使おうかと思ったけど、floatを使った方が適切と感じたのでやめた
 // 参考：https://designsupply-web.com/knowledgeside/2271/
 
-.wap {
-  width: 95%;
-  margin: 0 auto;
-}
+.wrap {
+    overflow: hidden;
+  }
 
 body {
   margin: 0;
