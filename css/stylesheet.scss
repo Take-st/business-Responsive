@@ -110,7 +110,7 @@ header {
   width: 100%;
   z-index: 10;
   position: fixed;
-  // display: none;
+  display: none;
   .header-menu {
     background: linear-gradient(90deg, rgb(3, 39, 84), rgb(162, 6, 122));
     width: 100%;
@@ -151,7 +151,7 @@ header {
 .top-wrapper {
   width: 100%;
   padding-top: 100px;
-  background: linear-gradient(90deg, rgba(3, 39, 84, 0.7), rgba(162, 6, 122, 0.7)), url("pics/top.png");
+  background: linear-gradient(90deg, rgba(3, 39, 84, 0.7), rgba(162, 6, 122, 0.7)), url("../pics/top.png");
   background-size: cover;
   h1 {
     font-weight: bold;
