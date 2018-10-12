@@ -1,11 +1,19 @@
-header {
-  width: 100%;
-  z-index: 10;
-  position: fixed;
+.container {
+  width: 95%;
+}
+
+.for-sm {
+  display: block;
+}
+
+.for-md {
   display: none;
 }
-header .header-menu .container .hide-mobile {
-  display: none;
+
+header {
+  width: 10%;
+  position: absolute;
+  top: -100px;
 }
 
 .history-wrapper .container {
@@ -77,34 +85,82 @@ footer .container .copyright {
   padding: 15px 0;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 544px) {
+  h2 {
+    font-size: 18px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
   header {
     width: 10%;
     position: absolute;
     top: -100px;
   }
 
+  .caption {
+    text-align: center;
+    position: relative;
+  }
+  .caption h2 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  .caption p {
+    font-size: 12px;
+    color: #949697;
+    letter-spacing: 1px;
+  }
+  .caption::before {
+    display: block;
+    content: ' ';
+    width: 84px;
+    height: 3px;
+    background: linear-gradient(90deg, #032754, #a2067a);
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    margin-left: -42px;
+  }
+
+  .top-wrapper {
+    padding-top: 60px;
+  }
   .top-wrapper .container {
     padding: 0;
     padding-bottom: 40px;
     width: 100%;
   }
   .top-wrapper .container .top-message {
-    font-size: 14px;
+    font-size: 13px;
     letter-spacing: 3px;
   }
   .top-wrapper .container h1 {
-    width: 85%;
-    font-size: 21px;
+    font-size: 18px;
+    width: 90%;
     padding: 20px 0;
   }
   .top-wrapper .container p {
     font-size: 13px;
     letter-spacing: 3px;
+    padding: 0 15px;
   }
   .top-wrapper .container .btn a {
     font-size: 13px;
     padding: 10px 30px;
+  }
+
+  .about-wrapper .container {
+    padding-top: 85px;
+  }
+  .about-wrapper .container .about-box .about-text h3 {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    color: #FEFF2A;
   }
 
   .history-wrapper .container .history-box {
@@ -115,6 +171,14 @@ footer .container .copyright {
     margin-bottom: 6px;
   }
   .history-wrapper .container .history-box p {
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  .flow-wrapper {
+    width: 100%;
+  }
+  .flow-wrapper .container h3 {
     font-size: 18px;
     letter-spacing: 2px;
   }

@@ -19,6 +19,12 @@ ul {
   list-style: none;
 }
 
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
 h2 {
   font-weight: bold;
   font-size: 24px;
@@ -58,8 +64,12 @@ img {
   text-align: center;
 }
 
+.for-sm {
+  display: none;
+}
+
 .container {
-  // width: 980px;
+  max-width: 980px;
   box-sizing: border-box;
   margin: 0 auto;
 }
@@ -153,10 +163,6 @@ header {
   padding-top: 100px;
   background: linear-gradient(90deg, rgba(3, 39, 84, 0.7), rgba(162, 6, 122, 0.7)), url("../pics/top.png");
   background-size: cover;
-  h1 {
-    font-weight: bold;
-    letter-spacing: 1px;
-  }
   .container {
     text-align: center;
     color: #FFFFFF;
@@ -169,7 +175,6 @@ header {
     h1 {
       width: 490px;
       margin: 0 auto 20px;
-      font-size: 30px;
       line-height: 1.5;
       padding: 35px 0;
       border-top: solid 2px white;
